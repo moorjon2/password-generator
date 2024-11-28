@@ -1,0 +1,75 @@
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #2F3E53;
+}
+
+h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #4ADF86;
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 0;
+}
+
+#genPassBut-el {
+    margin-top: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #10B981;
+    color: white;
+    padding: 10px 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.win {
+    border: 3px solid #9CA3AF;
+    border-radius: 9px;
+    background-color: #1F2937;
+    padding: 3rem 2rem;
+}
+
+.password {
+    background-color: #273549;
+    width: 180px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    color: #55F991;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.pass {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
